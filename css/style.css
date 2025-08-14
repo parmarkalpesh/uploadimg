@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+.container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.img-box {
+    text-align: center;
+}
+.img-box img {
+    display: block;
+    margin: auto;
+}
